@@ -12,7 +12,7 @@ ___________________________
 
 4. БЭМ
 
-5. Проект размещен по адресу: vladimir-suruvtsev.github.io
+5. Проект размещен по адресу: https://Vladimir-Surovtsev.github.io/russian-travel
 
 
 ___________________________
