@@ -1,0 +1,24 @@
+.header__link {
+    color: #fff;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: normal;
+    text-decoration: none;
+    margin-right: 14px;
+}
+
+@media screen and (max-width: 694px) {
+	.header__link {
+        font-size: 18px;
+        line-height: 20px;
+	}
+}
+
+.header__link:first-child {
+    text-decoration: none;
+    border-bottom: #fff solid 1px;
+}
+
+.header__link:last-child {
+        margin-right: 0;
+}
