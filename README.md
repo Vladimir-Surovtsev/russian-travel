@@ -14,7 +14,7 @@ ___________________________
 
 5. Проект размещен по адресу:
 
-   https://Vladimir-Surovtsev.github.io/russian-travel
+   https://Vladimir-Surovtsev.github.io/russian-travel/
 
 
 ___________________________
