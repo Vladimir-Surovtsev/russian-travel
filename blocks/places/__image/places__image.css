@@ -8,14 +8,26 @@
 	}
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
 	.places__image {
         max-width: 340px;
 	}
 }
 
-@media screen and (max-width: 694px) {
+@media screen and (max-width: 700px) {
 	.places__image {
-        max-width: 320px;
+        max-width: 280px;
+	}
+}
+
+@media screen and (max-width: 580px) {
+	.places__image {
+        max-width: 100%;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.places__image {
+        max-width: 100%;
 	}
 }

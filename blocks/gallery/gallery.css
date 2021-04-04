@@ -3,20 +3,13 @@
     grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
     object-fit: cover;
     grid-gap: 16px 16px;
-    max-width: 1184px;
-    margin: auto;
-    padding-top: 92px;
-}
-
-@media screen and (max-width: 1024px) {
-	.gallery {
-        max-width: calc(100% - 96px);
-	}
+    max-width: calc(100% - 96px);
+    padding: 92px 48px 0 48px;
 }
 
 @media screen and (max-width: 768px) {
 	.gallery {
-		padding-top: 88px;
+		padding: 88px 24px 0 24px;
         max-width: calc(100% - 48px);
 	}
 }
@@ -24,7 +17,7 @@
 @media screen and (max-width: 694px) {
 	.gallery {
         grid-gap: 12px;
-		padding-top: 64px;
+		padding: 64px 16px 0 16px;
         max-width: calc(100% - 32px);
 	}
 }

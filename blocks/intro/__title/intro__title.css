@@ -3,11 +3,26 @@
     font-size: 54px;
     line-height: 58px;
     margin: 0;
+    max-width: 690px;
 }
 
-@media screen and (max-width: 694px) {
+@media screen and (max-width: 768px) {
 	.intro__title {
-        max-width: 288px;
+        max-width: 720px;
+    }    
+}
+
+@media screen and (max-width: 740px) {
+	.intro__title {
+        max-width: calc(100% - 48px);
+        font-size: 39px;
+        line-height: 42px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.intro__title {
+        max-width: 250px;
         font-size: 32px;
         line-height: 35px;
 	}

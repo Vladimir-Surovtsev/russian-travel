@@ -3,9 +3,23 @@
     font-size: 16px;
     line-height: 26px;
     padding-top: 40px;
+    margin: 0;
 }
 
-@media screen and (max-width: 694px) {
+@media screen and (max-width: 768px) {
+	.intro__text {
+        max-width: 720px;
+        max-width: calc(100% - 48px);
+	}
+}
+
+@media screen and (max-width: 648px) {
+	.intro__text {
+        max-width: calc(100% - 32px);
+	}
+}
+
+@media screen and (max-width: 320px) {
 	.intro__text {
         max-width: 288px;
 	}

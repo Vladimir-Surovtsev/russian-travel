@@ -5,16 +5,30 @@
     margin: 0 auto;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024) {
 	.places__paragraph {
+        max-width: 456px;        
         font-size: 16px;
         line-height: 26px;
 	}
 }
 
-@media screen and (max-width: 694px) {
+@media screen and (max-width: 768px) {
+	.places__paragraph {
+        max-width: 352px;        
+        font-size: 16px;
+        line-height: 26px;
+	}
+}
+
+@media screen and (max-width: 580px) {
+	.places__paragraph {
+        max-width: 100%;
+	}
+}
+
+@media screen and (max-width: 320px) {
 	.places__paragraph {
         max-width: 288px;
-        line-height: 26px;
 	}
 }
